@@ -21,3 +21,9 @@ For an existing installation, close Brick by Script and run `Brick-by-Script-0.8
 Both demos run offline. Rebuilding an edited interior for GTA V Legacy requires Blender, Sollumz, and its compatible native export provider. For a development server, the complete ZIP includes `two-room-house.zip` and `WALKTHROUGH.md` with the sample location and in-game checks.
 
 Version 0.8.6 is an unsigned Windows beta. Automated tests verified native resource generation. Clean-machine installation and the in-game walkthrough remain pending.
+
+## Explore the website
+
+[Visit Brick by Script](https://404hxlo.github.io/brick-by-script/) for studio previews, beginner project guides and download information.
+
+The website previews development build 0.16.6. The currently published download remains the 0.8.6 prerelease above. The desktop application source is not included in this repository.
