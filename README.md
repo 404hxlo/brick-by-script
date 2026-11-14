@@ -27,3 +27,7 @@ Version 0.8.6 is an unsigned Windows beta. Automated tests verified native resou
 [Visit Brick by Script](https://404hxlo.github.io/brick-by-script/) for studio previews, beginner project guides and download information.
 
 The website previews development build 0.16.6. The currently published download remains the 0.8.6 prerelease above. The desktop application source is not included in this repository.
+
+## Documentation
+
+[Read the Brick by Script docs](https://404hxlo.github.io/brick-by-script/docs/) for installation, beginner projects, all five studios, backups, exports and testing. Search the guides with Ctrl+K. Newer development features are clearly labeled.
