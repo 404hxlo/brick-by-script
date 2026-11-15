@@ -4,21 +4,23 @@ Build interiors, write scripts, and work on clothing, jewelry and vehicles in on
 
 ## Install on Windows x64
 
-[Download Brick by Script 0.19.1 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.19.1/Brick-by-Script-0.19.1-Setup.exe) — direct installer download.
+[Download Brick by Script 0.19.2 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.19.2/Brick-by-Script-0.19.2-Setup.exe) — direct installer download.
 
 Already using 0.18.0 or later? Open **Workspace settings → App updates**, enable **Include preview releases**, then check, download and choose **Install and restart**. Earlier versions need one manual installation to gain the updater. Save your work and keep a backup before upgrading.
 
-[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.1). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
+[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.2). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
 
-## New in 0.19.1
+## New in 0.19.2
 
-- **Right-click project actions.** Open, rename, duplicate, favorite, organize, inspect recovery and use recoverable Trash from the library.
-- **Faster script editing.** Cut, Copy and Paste in the editor; native text menus in inputs; Explorer actions and relative-path copying beside the file you need.
-- **Control your tabs.** Close one, others, tabs to the right or all tabs. Reopen the last closed tab with **Ctrl+Shift+T**. Closing a tab preserves its unsaved text.
-- **Creator menus.** MLO object actions, clothing artwork ordering and duplication, imported-jewelry part visibility, and vehicle preview visibility.
-- **Keyboard access.** Open supported row menus with **Shift+F10**, navigate with arrows and dismiss with **Escape**. Use **Ctrl+W** to close a file tab and **Ctrl+Tab** to switch tabs.
+- **Pick up where you left off.** Local project sessions retain your tabs, active file, cursor and selection, editor scroll and last project workspace across restarts. This is navigation state on this computer, separate from saving the project or uploading a cloud snapshot.
+- **Navigate Explorer from the keyboard.** Use arrow keys, Home/End and type-ahead to find files and folders. Enter opens a file; Shift+F10 opens its actions. Protected manifest actions are disabled before an invalid operation.
+- **Select project ranges.** Shift-click or Shift+arrow selects a range; Ctrl-click toggles individual projects. Ctrl+A selects the visible library list while it has focus, while text fields keep normal text selection. Filtering clears hidden selections, and sorting keeps the selection anchor tied to the same project.
+- **Work directly in the 3D view.** Right-click visible MLO geometry, vehicle parts and imported jewelry meshes for their existing actions. Right-drag still controls the camera. Blank space offers applicable frame/show-all controls.
+- **Find and manage more comfortably.** Search continues beyond the first 100 results with Previous/Next. Clear filters or selections, refresh the library or retry a failed load, and review the selected project names before moving a batch to Trash. Dialogs have accessible titles.
 
-[Everyday script editing](https://404hxlo.github.io/brick-by-script/docs/script-studio/#everyday-editing) · [Project actions](https://404hxlo.github.io/brick-by-script/docs/projects-and-backups/#project-context-menu) · [What's new](https://404hxlo.github.io/brick-by-script/docs/whats-new/)
+Closed-tab history and Undo remain session-only. Vehicle part visibility changes the preview; hiding imported jewelry parts also affects their supported export. Ordinary clicks on library project names still open projects, and a single-project context action targets the clicked project.
+
+[Resume and navigate](https://404hxlo.github.io/brick-by-script/docs/script-studio/#resume-and-navigate) · [Select project ranges](https://404hxlo.github.io/brick-by-script/docs/projects-and-backups/#select-project-ranges) · [What's new](https://404hxlo.github.io/brick-by-script/docs/whats-new/)
 
 ## Included project tools
 
@@ -39,11 +41,11 @@ No account is needed for local editing. The cloud preview allows 512 MiB of rese
 
 ## Validation and alpha limits
 
-The final 0.19.1 automated suite passed 409 tests, with 11 optional external/native cases skipped. Seven core desktop workflow groups passed against the packaged app, including real editor Cut/Paste with Undo/Redo. Six creator workflow groups passed against the final compiled source, including the imported-jewelry menu after scrolling and preservation of its saved source GLB. See the current release notes for any additional completed release checks.
+The final 0.19.2 automated suite passed 435 tests, with 11 optional external/native cases skipped. Thirty workflow groups passed against the packaged app, including full process restart with tabs, cursor/selection, horizontal and vertical scroll, workspace and deliberately closed tabs restored. Isolated 0.19.1 to 0.19.2 installation, upgrade, reinstall and uninstall checks preserved generated projects and settings. These tests used disposable profiles, not the owner’s library.
 
 This is an **unsigned Windows alpha**. Production signing, clean-device/laptop checks and the owner-run FiveM walkthrough remain pending. Native exports require the relevant tools and actual in-game validation. This update adds editing conveniences; it does not expand native GTA format support. The complete examples ZIP includes an original two-room house and its test guide.
 
-An earlier real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer. That does not establish clean-laptop, large-asset or every authenticated edge-case acceptance. Consult the [current release notes](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.1) for this version's details.
+An earlier real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer. That does not establish clean-laptop, large-asset or every authenticated edge-case acceptance. Consult the [current release notes](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.2) for this version's details.
 
 ## Website and guides
 
