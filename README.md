@@ -4,29 +4,29 @@ Build interiors, write scripts, and work on clothing, jewelry and vehicles in on
 
 ## Install on Windows x64
 
-[Download Brick by Script 0.19.3 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.19.3/Brick-by-Script-0.19.3-Setup.exe) — direct installer download.
+[Download Brick by Script 0.20.0 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.20.0/Brick-by-Script-0.20.0-Setup.exe) — direct installer download.
 
 Already using 0.18.0 or later? Open **Workspace settings → App updates**, enable **Include preview releases**, then check, download and choose **Install and restart**. Earlier versions need one manual installation to gain the updater. Save your work and keep a backup before upgrading.
 
-[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.3). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
+[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.20.0). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
 
-## New in 0.19.3
+## New in 0.20.0 — Midnight Showroom
 
-- **Keep newer edits.** Delayed MLO imports and fitting saves preserve newer work and remain tied to the intended project. Undo restores the actual state before an import.
-- **Recover an intact checkpoint.** Damage to the latest project record no longer blocks recovery from valid history. Restore a separate copy without replacing the original. A readable library and valid checkpoint are still required.
-- **Use results from the right scene.** MLO builds, design proposals, mesh previews and walkthrough reports check the scene or project they belong to. Changed inputs require a fresh result instead of silently applying an outdated one.
-- **Replace exports deliberately.** Competing exports to the same existing file now refuse a stale replacement and ask you to export again.
-- **Keep collision data editable.** Primitive collision generation follows the scene format, and generated architectural collision stays associated with its authoring data.
-- **Move through everyday controls.** Dialogs focus their intended input, project-library search is ready after loading, keyboard-selected commands remain visible, and project shortcuts respect an open dialog.
+- **One shared navigation bar.** Home, Projects, Studios, Tools and Learn keep the existing workspaces within reach. Start a script resource, MLO interior, clothing design, jewelry design or vehicle project from one New project menu.
+- **See your saved work.** Home resumes the current project and shows recent projects. The library uses actual saved viewport previews with a clear fallback when a preview is unavailable. The bounded preview cache stays on this computer; it is not an asset upload or a backup.
+- **Keep projects organized.** A clearer gallery retains search, studio/folder filters, favorites, tags, selection, context menus, recoverable Trash and recovery. Renaming or organizing an unchanged project keeps its preview.
+- **Make the workspace yours.** Settings has a category sidebar, live workspace preview and reachable Done button. Panel choices and editor preferences still persist across restarts.
+- **Work in a consistent blue theme.** Navy studio panels and a calmer vehicle stage bring the brand across the app without changing imported geometry or paint.
+- **Keep editing intentional.** Navigation dropdowns block model-editing shortcuts while their controls have focus. Saved previews exclude menus, dialogs and notifications.
 
-Tabs, cursor positions and project workspaces still resume locally. Explorer keyboard navigation, project range selection and 3D context menus remain available. Closed-tab history and Undo remain session-only.
+Existing projects remain in the same local library. Beginner exercises, the editable example house, backups and learning links remain available on Home below the recent-project gallery. Earlier editing, recovery, settings and update features are retained.
 
-[What’s new](https://404hxlo.github.io/brick-by-script/docs/whats-new/#reliability-audit) · [Recover a damaged project](https://404hxlo.github.io/brick-by-script/docs/recovery-and-undo/#recover-a-damaged-project) · [Background results in MLO Studio](https://404hxlo.github.io/brick-by-script/docs/mlo-studio/#background-results)
+[What’s new](https://404hxlo.github.io/brick-by-script/docs/whats-new/#midnight-showroom) · [Find your way around](https://404hxlo.github.io/brick-by-script/docs/introduction/#find-your-way) · [Saved project previews](https://404hxlo.github.io/brick-by-script/docs/projects-and-backups/#saved-previews)
 
 ## Included project tools
 
 - Script, MLO, Clothing, Jewelry and Vehicle studios with beginner guidance and advanced tool workflows.
-- Blue blueprint settings for workspace panels, editor preferences, recovery, tools, accounts and updates.
+- Workspace settings for panels, editor preferences, recovery, tools, accounts and updates.
 - Optional GitHub accounts and private project snapshots. Explicitly save a chosen project, then get a separate local copy using the same account elsewhere. Conflicts protect newer cloud versions. This is not automatic sync or simultaneous editing.
 - Project folders, tags, favorites, independent duplication and recoverable Trash; named and pinned checkpoints; Save / Discard / Cancel with autosave off.
 - Clothing artwork Copy/Paste and creator Undo retained when switching studios during a session.
@@ -36,19 +36,20 @@ No account is needed for local editing. The cloud preview allows 512 MiB of rese
 
 ## Try the app
 
-- **Move a doorway.** Choose **Getting started → Open example house → Edit the example house** and inspect the change in 3D.
-- **Write a command.** Choose **Getting started → Make a chat command**, change the greeting, then type `/hello` in the simulated chat.
-- **Move a project.** Use **Account & cloud** for optional online snapshots, or local project backups and transfer bundles without a cloud account.
+- **Move a doorway.** Choose **Home → Open example house → Edit the example house** and inspect the change in 3D. Scroll below Recent projects to find the example on Home.
+- **Write a command.** Choose **Home → Make a chat command**, change the greeting, then type `/hello` in the simulated chat.
+- **Find a project.** Choose **Projects** or press **Ctrl+O**, then search or filter the gallery.
+- **Move a project.** Use **Workspace settings → Account & cloud** for optional online snapshots, or local project backups and **Tools → Project transfer** without a cloud account.
 
 ## Validation and alpha limits
 
-The final 0.19.3 automated suite passed **457 tests**, with **11 optional external/native cases skipped and zero failures**. The packaged app passed **112 workflow groups**, including the isolated Windows install/upgrade/reinstall group. These are test scenarios, not a count of features. Isolated **0.19.2 → 0.19.3** installation preserved the tested project types, settings and linked-source references. Tests used disposable profiles, not the owner’s library. Fixes received a separate review pass.
+Development and packaged 0.20.0 walkthroughs passed with isolated copies of a real vehicle, a downloaded chain and the editable sample house. Checks covered all five creation choices, navigation, context menus, real saved previews, settings persistence, project reopening and source-file integrity. Both reported no renderer or console errors. Settings, onboarding and project selection/recovery checks passed, including smaller windows.
 
-The original two-room example produced a checked native resource ZIP through the local tool pipeline, including YMAP, YTYP, YDR, YBN and YMF files. It was **not deployed or tested inside FiveM**. Some delayed-result checks used controlled responses to verify timing and attribution; they do not establish a fresh live model-provider or game round trip.
+The broader unit run passed **469 tests**, with **13 environment-dependent skips**. An additional focused preview/cache/framing suite passed **20 checks**. These are separate test runs, not counts of product features or a claim that every possible workflow was retested.
 
-This is an **unsigned Windows alpha**. Production signing, clean-device/laptop acceptance and actual FiveM gameplay testing remain pending. Native exports require the relevant tools and in-game validation. The complete examples ZIP includes the original two-room house and its test guide.
+This is an **unsigned Windows alpha**. Production signing, clean-device/laptop acceptance and actual FiveM gameplay testing remain pending. Native exports require the relevant tools and in-game validation. The examples ZIP includes the original two-room house and its test guide. This redesign does not establish new native-export or in-game acceptance results.
 
-An earlier real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer. This audit tested local cloud-service logic but did not repeat hosted sign-in or cross-device transfer. Clean-laptop, large-asset and every authenticated edge-case acceptance remain unverified. Consult the [current release notes](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.3) for the exact download and verification boundaries.
+An earlier real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer. This UI update did not repeat hosted sign-in or cross-device transfer. Consult the [current release notes](https://github.com/404hxlo/brick-by-script/releases/tag/v0.20.0) for the exact download and verification boundaries.
 
 ## Website and guides
 
