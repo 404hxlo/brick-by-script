@@ -4,23 +4,24 @@ Build interiors, write scripts, and work on clothing, jewelry and vehicles in on
 
 ## Install on Windows x64
 
-[Download Brick by Script 0.19.2 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.19.2/Brick-by-Script-0.19.2-Setup.exe) — direct installer download.
+[Download Brick by Script 0.19.3 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.19.3/Brick-by-Script-0.19.3-Setup.exe) — direct installer download.
 
 Already using 0.18.0 or later? Open **Workspace settings → App updates**, enable **Include preview releases**, then check, download and choose **Install and restart**. Earlier versions need one manual installation to gain the updater. Save your work and keep a backup before upgrading.
 
-[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.2). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
+[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.3). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
 
-## New in 0.19.2
+## New in 0.19.3
 
-- **Pick up where you left off.** Local project sessions retain your tabs, active file, cursor and selection, editor scroll and last project workspace across restarts. This is navigation state on this computer, separate from saving the project or uploading a cloud snapshot.
-- **Navigate Explorer from the keyboard.** Use arrow keys, Home/End and type-ahead to find files and folders. Enter opens a file; Shift+F10 opens its actions. Protected manifest actions are disabled before an invalid operation.
-- **Select project ranges.** Shift-click or Shift+arrow selects a range; Ctrl-click toggles individual projects. Ctrl+A selects the visible library list while it has focus, while text fields keep normal text selection. Filtering clears hidden selections, and sorting keeps the selection anchor tied to the same project.
-- **Work directly in the 3D view.** Right-click visible MLO geometry, vehicle parts and imported jewelry meshes for their existing actions. Right-drag still controls the camera. Blank space offers applicable frame/show-all controls.
-- **Find and manage more comfortably.** Search continues beyond the first 100 results with Previous/Next. Clear filters or selections, refresh the library or retry a failed load, and review the selected project names before moving a batch to Trash. Dialogs have accessible titles.
+- **Keep newer edits.** Delayed MLO imports and fitting saves preserve newer work and remain tied to the intended project. Undo restores the actual state before an import.
+- **Recover an intact checkpoint.** Damage to the latest project record no longer blocks recovery from valid history. Restore a separate copy without replacing the original. A readable library and valid checkpoint are still required.
+- **Use results from the right scene.** MLO builds, design proposals, mesh previews and walkthrough reports check the scene or project they belong to. Changed inputs require a fresh result instead of silently applying an outdated one.
+- **Replace exports deliberately.** Competing exports to the same existing file now refuse a stale replacement and ask you to export again.
+- **Keep collision data editable.** Primitive collision generation follows the scene format, and generated architectural collision stays associated with its authoring data.
+- **Move through everyday controls.** Dialogs focus their intended input, project-library search is ready after loading, keyboard-selected commands remain visible, and project shortcuts respect an open dialog.
 
-Closed-tab history and Undo remain session-only. Vehicle part visibility changes the preview; hiding imported jewelry parts also affects their supported export. Ordinary clicks on library project names still open projects, and a single-project context action targets the clicked project.
+Tabs, cursor positions and project workspaces still resume locally. Explorer keyboard navigation, project range selection and 3D context menus remain available. Closed-tab history and Undo remain session-only.
 
-[Resume and navigate](https://404hxlo.github.io/brick-by-script/docs/script-studio/#resume-and-navigate) · [Select project ranges](https://404hxlo.github.io/brick-by-script/docs/projects-and-backups/#select-project-ranges) · [What's new](https://404hxlo.github.io/brick-by-script/docs/whats-new/)
+[What’s new](https://404hxlo.github.io/brick-by-script/docs/whats-new/#reliability-audit) · [Recover a damaged project](https://404hxlo.github.io/brick-by-script/docs/recovery-and-undo/#recover-a-damaged-project) · [Background results in MLO Studio](https://404hxlo.github.io/brick-by-script/docs/mlo-studio/#background-results)
 
 ## Included project tools
 
@@ -41,11 +42,13 @@ No account is needed for local editing. The cloud preview allows 512 MiB of rese
 
 ## Validation and alpha limits
 
-The final 0.19.2 automated suite passed 435 tests, with 11 optional external/native cases skipped. Thirty workflow groups passed against the packaged app, including full process restart with tabs, cursor/selection, horizontal and vertical scroll, workspace and deliberately closed tabs restored. Isolated 0.19.1 to 0.19.2 installation, upgrade, reinstall and uninstall checks preserved generated projects and settings. These tests used disposable profiles, not the owner’s library.
+The final 0.19.3 automated suite passed **457 tests**, with **11 optional external/native cases skipped and zero failures**. The packaged app passed **112 workflow groups**, including the isolated Windows install/upgrade/reinstall group. These are test scenarios, not a count of features. Isolated **0.19.2 → 0.19.3** installation preserved the tested project types, settings and linked-source references. Tests used disposable profiles, not the owner’s library. Fixes received a separate review pass.
 
-This is an **unsigned Windows alpha**. Production signing, clean-device/laptop checks and the owner-run FiveM walkthrough remain pending. Native exports require the relevant tools and actual in-game validation. This update adds editing conveniences; it does not expand native GTA format support. The complete examples ZIP includes an original two-room house and its test guide.
+The original two-room example produced a checked native resource ZIP through the local tool pipeline, including YMAP, YTYP, YDR, YBN and YMF files. It was **not deployed or tested inside FiveM**. Some delayed-result checks used controlled responses to verify timing and attribution; they do not establish a fresh live model-provider or game round trip.
 
-An earlier real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer. That does not establish clean-laptop, large-asset or every authenticated edge-case acceptance. Consult the [current release notes](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.2) for this version's details.
+This is an **unsigned Windows alpha**. Production signing, clean-device/laptop acceptance and actual FiveM gameplay testing remain pending. Native exports require the relevant tools and in-game validation. The complete examples ZIP includes the original two-room house and its test guide.
+
+An earlier real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer. This audit tested local cloud-service logic but did not repeat hosted sign-in or cross-device transfer. Clean-laptop, large-asset and every authenticated edge-case acceptance remain unverified. Consult the [current release notes](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.3) for the exact download and verification boundaries.
 
 ## Website and guides
 
