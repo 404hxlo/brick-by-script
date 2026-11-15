@@ -6,7 +6,7 @@ Build interiors, write scripts, and work on clothing, jewelry and vehicles in an
 
 [Download Brick by Script 0.18.0 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.18.0/Brick-by-Script-0.18.0-Setup.exe) — direct installer download, 162.5 MB.
 
-Run the downloaded installer, then launch Brick by Script. For an update, close the app before running the new installer. Back up important projects before upgrading.
+New users and users on versions before 0.18.0: save and close any older app window, run the downloaded installer, then launch Brick by Script. If you already installed 0.18.0 or later, open **Workspace settings → App updates** to check, download and choose when to install the next release. Keep a backup of important projects before upgrading.
 
 [Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.18.0). The ZIP includes editable examples, sample resources and walkthroughs. Extract it before opening its installer. GitHub’s automatically generated source archives are not the app installer.
 

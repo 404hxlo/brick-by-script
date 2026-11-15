@@ -10,6 +10,16 @@
 @media(max-width:600px){.hero-visual:before{left:0;right:0}}
 
 .update-shortcut{display:inline-flex;align-items:center;gap:10px;flex-wrap:wrap;color:#c7e6f5;font-size:11px;margin-top:20px;line-height:1.6}
+.returning-user{border:1px solid #365c71;background:#133347;border-radius:6px;padding:20px;margin:24px 0}
+.returning-user h4{margin:0 0 10px;font-size:16px;line-height:1.35;letter-spacing:-.02em;color:#e3f2f8}
+.returning-user p{margin:0 0 12px}
+.returning-user ol{display:flex;flex-wrap:wrap;gap:8px 20px;margin:17px 0;padding-left:17px;color:#c7e6f5;font-size:11px}
+.returning-user li{padding-right:7px}
+.returning-user li::marker{color:var(--blue);font-weight:700}
+.returning-user a{display:inline-flex;gap:12px;font-size:12px;font-weight:650;color:var(--blue);text-decoration:underline;text-underline-offset:4px;line-height:1.6}
+.release-card .release-limit{font-size:11px;line-height:1.75;margin-bottom:18px}
+.faq-list p a{color:var(--blue);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:600px){.returning-user{padding:17px}.returning-user ol{display:block;margin:14px 0}.returning-user li{padding-block:3px}.returning-user a{font-size:12px}}
 .update-shortcut>span:first-child{font-size:8px;font-weight:750;letter-spacing:.08em;color:var(--blue);border:1px solid #35596c;border-radius:3px;padding:4px 7px}
 .update{padding-block:78px;border-bottom:1px solid var(--line)}
 .update-intro{max-width:360px}
