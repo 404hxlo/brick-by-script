@@ -44,7 +44,7 @@ async function runSearch() {
     status.textContent=matches.length?`${matches.length} ${matches.length===1?'guide':'guides'} found. Use the arrow keys to browse.`:'No guides found. Try a shorter phrase, a studio name or a file type such as GLB.';
     for(const {item} of matches){
       const link=document.createElement('a');link.className='search-result';link.href=new URL(item.url,docsRoot).href;
-      const group=document.createElement('span');group.className='result-group';group.textContent=item.group+(item.version==='development'?' · Development 0.16.6':'');
+      const group=document.createElement('span');group.className='result-group';group.textContent=item.group+(item.version==='development'?' · Development guide':'');
       const title=document.createElement('strong');highlight(title,item.title,tokens);
       const excerpt=document.createElement('p');
       let snippet=item.summary;

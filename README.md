@@ -4,11 +4,21 @@ Build interiors, write scripts, and work on clothing, jewelry and vehicles in an
 
 ## Install on Windows x64
 
-[Download Brick by Script 0.16.6 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.16.6/Brick-by-Script-0.16.6-Setup.exe) — direct installer download, 162.4 MB.
+[Download Brick by Script 0.17.1 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.17.1/Brick-by-Script-0.17.1-Setup.exe) — direct installer download, 118.5 MB.
 
 Run the downloaded installer, then launch Brick by Script. For an update, close the app before running the new installer. Back up important projects before upgrading.
 
-[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.16.6). The ZIP includes editable examples, sample resources and walkthroughs. Extract it before opening its installer. GitHub’s automatically generated source archives are not the app installer.
+[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.17.1). The ZIP includes editable examples, sample resources and walkthroughs. Extract it before opening its installer. GitHub’s automatically generated source archives are not the app installer.
+
+## New in 0.17.1
+
+- Organize projects with folder labels, tags and favorites. Rename, duplicate, or move them to recoverable Trash.
+- Keep named and pinned checkpoints. With autosave off, choose Save, Discard or Cancel when changing projects or closing.
+- Rename/move, duplicate and remove script files and folders. Removal creates a recovery checkpoint first.
+- Keep clothing/jewelry Undo when changing studios, reuse artwork with Copy/Paste, and recall fitting settings by jewelry type.
+- Explore the 0.17.0 expansion: 19 clothing categories and watches, bracelets, rings, grills and earrings. Non-template clothing starts from a matching permitted GTA or imported mesh; advanced rigging and modeling use Blender.
+
+[What’s new and what remains](https://404hxlo.github.io/brick-by-script/docs/whats-new/) · [Recovery and Undo](https://404hxlo.github.io/brick-by-script/docs/recovery-and-undo/)
 
 ## Try the app
 
@@ -20,13 +30,13 @@ Run the downloaded installer, then launch Brick by Script. For an update, close 
 
 Both demos run offline. Rebuilding an edited interior for GTA V Legacy requires Blender, Sollumz, and its compatible native export provider. For a development server, the complete ZIP includes `two-room-house.zip` and `WALKTHROUGH.md` with the sample location and in-game checks.
 
-Version 0.16.6 is an unsigned Windows alpha. Production build, distribution, packaged onboarding and artifact provenance checks passed. Clean-device/laptop installation and the in-game walkthrough remain pending. Native build tests and an editor preview do not establish in-game acceptance.
+Version 0.17.1 is an unsigned Windows alpha. The production build, 344 automated tests (11 optional cases skipped), desktop workflows, packaged project-management checks, and isolated 0.17.0-to-0.17.1 upgrade/reinstall checks passed. Clean-device/laptop installation and the in-game walkthrough remain pending. Native build tests and an editor preview do not establish in-game acceptance.
 
 ## Explore the website
 
 [Visit Brick by Script](https://404hxlo.github.io/brick-by-script/) for studio previews, beginner project guides and download information.
 
-The website screenshots show public alpha 0.16.6. Imported GTA models pictured on the website are not bundled. The desktop application source is not included in this repository.
+The studio screenshots were captured in alpha 0.16.6; their capture labels are retained. Imported GTA models pictured on the website are not bundled. The desktop application source is not included in this repository.
 
 ## Documentation
 
