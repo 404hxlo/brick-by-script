@@ -4,43 +4,46 @@ Build interiors, write scripts, and work on clothing, jewelry and vehicles in on
 
 ## Install on Windows x64
 
-[Download Brick by Script 0.19.0 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.19.0/Brick-by-Script-0.19.0-Setup.exe) — direct installer download, 162.5 MB.
+[Download Brick by Script 0.19.1 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.19.1/Brick-by-Script-0.19.1-Setup.exe) — direct installer download.
 
 Already using 0.18.0 or later? Open **Workspace settings → App updates**, enable **Include preview releases**, then check, download and choose **Install and restart**. Earlier versions need one manual installation to gain the updater. Save your work and keep a backup before upgrading.
 
-[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.0). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
+[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.1). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
 
-## New in 0.19.0
+## New in 0.19.1
 
-- **Blueprint settings.** Arrange panels using a live workspace diagram. Keep editor preferences, recovery, tools, account controls and updates together.
-- **Optional GitHub sign-in.** Use your browser to sign in for private cloud project snapshots; no repository permissions are requested.
-- **Choose what moves.** Select **Save to cloud**, then use the same GitHub account on another computer and choose **Get local copy**. Downloads create separate editable copies and preserve existing projects.
-- **Keep control of versions.** A newer cloud version produces a conflict instead of silently replacing it. Snapshots are explicit, not automatic sync or simultaneous editing.
-- **Keep working offline.** No account is required for local editing. The cloud preview allows 512 MiB of reserved snapshot storage per account, including older versions and unfinished transfers.
+- **Right-click project actions.** Open, rename, duplicate, favorite, organize, inspect recovery and use recoverable Trash from the library.
+- **Faster script editing.** Cut, Copy and Paste in the editor; native text menus in inputs; Explorer actions and relative-path copying beside the file you need.
+- **Control your tabs.** Close one, others, tabs to the right or all tabs. Reopen the last closed tab with **Ctrl+Shift+T**. Closing a tab preserves its unsaved text.
+- **Creator menus.** MLO object actions, clothing artwork ordering and duplication, imported-jewelry part visibility, and vehicle preview visibility.
+- **Keyboard access.** Open supported row menus with **Shift+F10**, navigate with arrows and dismiss with **Escape**. Use **Ctrl+W** to close a file tab and **Ctrl+Tab** to switch tabs.
 
-[Workspace settings](https://404hxlo.github.io/brick-by-script/docs/workspace-settings/) · [GitHub and cloud projects](https://404hxlo.github.io/brick-by-script/docs/cloud-projects/) · [In-app updates](https://404hxlo.github.io/brick-by-script/docs/app-updates/)
+[Everyday script editing](https://404hxlo.github.io/brick-by-script/docs/script-studio/#everyday-editing) · [Project actions](https://404hxlo.github.io/brick-by-script/docs/projects-and-backups/#project-context-menu) · [What's new](https://404hxlo.github.io/brick-by-script/docs/whats-new/)
 
 ## Included project tools
 
 - Script, MLO, Clothing, Jewelry and Vehicle studios with beginner guidance and advanced tool workflows.
-- Project folders, tags, favorites, rename, independent duplication and recoverable Trash.
-- Named and pinned checkpoints, plus Save / Discard / Cancel with autosave off.
+- Blue blueprint settings for workspace panels, editor preferences, recovery, tools, accounts and updates.
+- Optional GitHub accounts and private project snapshots. Explicitly save a chosen project, then get a separate local copy using the same account elsewhere. Conflicts protect newer cloud versions. This is not automatic sync or simultaneous editing.
+- Project folders, tags, favorites, independent duplication and recoverable Trash; named and pinned checkpoints; Save / Discard / Cancel with autosave off.
 - Clothing artwork Copy/Paste and creator Undo retained when switching studios during a session.
 - 19 clothing categories, plus watches, bracelets, rings, grills and earrings. Categories beyond starter tops begin with matching permitted GTA assets or compatible imported geometry; advanced rigging and modeling use Blender.
+
+No account is needed for local editing. The cloud preview allows 512 MiB of reserved snapshot storage per account, including older versions and unfinished transfers. Read the [cloud guide](https://404hxlo.github.io/brick-by-script/docs/cloud-projects/) before moving linked sources between computers.
 
 ## Try the app
 
 - **Move a doorway.** Choose **Getting started → Open example house → Edit the example house** and inspect the change in 3D.
 - **Write a command.** Choose **Getting started → Make a chat command**, change the greeting, then type `/hello` in the simulated chat.
-- **Move a project.** Use **Account & cloud** for optional online snapshots, or use local project backups and transfer bundles without a cloud account.
+- **Move a project.** Use **Account & cloud** for optional online snapshots, or local project backups and transfer bundles without a cloud account.
 
-## Validation and limits
+## Validation and alpha limits
 
-The 0.19.0 alpha build passed 399 automated tests, with 11 optional external/native cases skipped. Packaged desktop workflows, 12 cloud UI checks and 12 settings checks passed. The isolated 0.18.0-to-0.19.0 installer upgrade/reinstall preserved project types, settings and linked sources.
+The final 0.19.1 automated suite passed 409 tests, with 11 optional external/native cases skipped. Seven core desktop workflow groups passed against the packaged app, including real editor Cut/Paste with Undo/Redo. Six creator workflow groups passed against the final compiled source, including the imported-jewelry menu after scrolling and preservation of its saved source GLB. See the current release notes for any additional completed release checks.
 
-A real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer, including encrypted-session restart and matching restored content. This does not establish clean-laptop, large-asset or every authenticated edge-case acceptance.
+This is an **unsigned Windows alpha**. Production signing, clean-device/laptop checks and the owner-run FiveM walkthrough remain pending. Native exports require the relevant tools and actual in-game validation. This update adds editing conveniences; it does not expand native GTA format support. The complete examples ZIP includes an original two-room house and its test guide.
 
-This is an **unsigned Windows alpha**. Production signing, clean-device/laptop checks and the owner-run FiveM walkthrough remain pending. Native exports require the relevant tools and actual in-game validation. The complete examples ZIP includes an original two-room house and its test guide.
+An earlier real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer. That does not establish clean-laptop, large-asset or every authenticated edge-case acceptance. Consult the [current release notes](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.1) for this version's details.
 
 ## Website and guides
 
