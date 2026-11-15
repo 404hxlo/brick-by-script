@@ -1,53 +1,49 @@
 # Brick by Script
 
-Build interiors, write scripts, and work on clothing, jewelry and vehicles in an offline Windows workspace. Keep an editable copy of each project on your computer.
+Build interiors, write scripts, and work on clothing, jewelry and vehicles in one Windows workspace. Keep editable projects locally and optionally save private cloud snapshots with GitHub.
 
 ## Install on Windows x64
 
-[Download Brick by Script 0.18.0 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.18.0/Brick-by-Script-0.18.0-Setup.exe) — direct installer download, 162.5 MB.
+[Download Brick by Script 0.19.0 for Windows](https://github.com/404hxlo/brick-by-script/releases/download/v0.19.0/Brick-by-Script-0.19.0-Setup.exe) — direct installer download, 162.5 MB.
 
-New users and users on versions before 0.18.0: save and close any older app window, run the downloaded installer, then launch Brick by Script. If you already installed 0.18.0 or later, open **Workspace settings → App updates** to check, download and choose when to install the next release. Keep a backup of important projects before upgrading.
+Already using 0.18.0 or later? Open **Workspace settings → App updates**, enable **Include preview releases**, then check, download and choose **Install and restart**. Earlier versions need one manual installation to gain the updater. Save your work and keep a backup before upgrading.
 
-[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.18.0). The ZIP includes editable examples, sample resources and walkthroughs. Extract it before opening its installer. GitHub’s automatically generated source archives are not the app installer.
+[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.19.0). Extract the ZIP before opening its installer. GitHub's automatically generated source archives are not the app installer.
 
-## New in 0.18.0
+## New in 0.19.0
 
-- **Update inside the app.** Open **Workspace settings → App updates**, check releases and read the notes.
-- Download while you work, cancel or retry, and choose **Install and restart** when ready.
-- The app verifies the published download hash and size, saves before closing, and reopens after successful installation.
-- Optional startup checks and preview releases stay under your control; neither automatically installs an update.
-- Install this version once if you have 0.17.1 or older. Future updates use the in-app flow in the registered Windows installation.
+- **Blueprint settings.** Arrange panels using a live workspace diagram. Keep editor preferences, recovery, tools, account controls and updates together.
+- **Optional GitHub sign-in.** Use your browser to sign in for private cloud project snapshots; no repository permissions are requested.
+- **Choose what moves.** Select **Save to cloud**, then use the same GitHub account on another computer and choose **Get local copy**. Downloads create separate editable copies and preserve existing projects.
+- **Keep control of versions.** A newer cloud version produces a conflict instead of silently replacing it. Snapshots are explicit, not automatic sync or simultaneous editing.
+- **Keep working offline.** No account is required for local editing. The cloud preview allows 512 MiB of reserved snapshot storage per account, including older versions and unfinished transfers.
 
-[In-app update guide](https://404hxlo.github.io/brick-by-script/docs/app-updates/)
+[Workspace settings](https://404hxlo.github.io/brick-by-script/docs/workspace-settings/) · [GitHub and cloud projects](https://404hxlo.github.io/brick-by-script/docs/cloud-projects/) · [In-app updates](https://404hxlo.github.io/brick-by-script/docs/app-updates/)
 
 ## Included project tools
 
-- Organize projects with folder labels, tags and favorites. Rename, duplicate, or move them to recoverable Trash.
-- Keep named and pinned checkpoints. With autosave off, choose Save, Discard or Cancel when changing projects or closing.
-- Rename/move, duplicate and remove script files and folders. Removal creates a recovery checkpoint first.
-- Keep clothing/jewelry Undo when changing studios, reuse artwork with Copy/Paste, and recall fitting settings by jewelry type.
-- Explore the 0.17.0 expansion: 19 clothing categories and watches, bracelets, rings, grills and earrings. Non-template clothing starts from a matching permitted GTA or imported mesh; advanced rigging and modeling use Blender.
-
-[What’s new and what remains](https://404hxlo.github.io/brick-by-script/docs/whats-new/) · [Recovery and Undo](https://404hxlo.github.io/brick-by-script/docs/recovery-and-undo/)
+- Script, MLO, Clothing, Jewelry and Vehicle studios with beginner guidance and advanced tool workflows.
+- Project folders, tags, favorites, rename, independent duplication and recoverable Trash.
+- Named and pinned checkpoints, plus Save / Discard / Cancel with autosave off.
+- Clothing artwork Copy/Paste and creator Undo retained when switching studios during a session.
+- 19 clothing categories, plus watches, bracelets, rings, grills and earrings. Categories beyond starter tops begin with matching permitted GTA assets or compatible imported geometry; advanced rigging and modeling use Blender.
 
 ## Try the app
 
-- **Move a doorway.** Choose **Getting started → Open example house → Edit the example house**. Select the living room, move its front door, and inspect the change in 3D.
+- **Move a doorway.** Choose **Getting started → Open example house → Edit the example house** and inspect the change in 3D.
 - **Write a command.** Choose **Getting started → Make a chat command**, change the greeting, then type `/hello` in the simulated chat.
-- **Move your work to a laptop.** Choose **Getting started → Your projects → Save project backup…**, transfer the `.brickbyscript` file, then choose **Open project backup…** on the other computer.
+- **Move a project.** Use **Account & cloud** for optional online snapshots, or use local project backups and transfer bundles without a cloud account.
 
-## Native map builds
+## Validation and limits
 
-Both demos run offline. Rebuilding an edited interior for GTA V Legacy requires Blender, Sollumz, and its compatible native export provider. For a development server, the complete ZIP includes `two-room-house.zip` and `WALKTHROUGH.md` with the sample location and in-game checks.
+The 0.19.0 alpha build passed 399 automated tests, with 11 optional external/native cases skipped. Packaged desktop workflows, 12 cloud UI checks and 12 settings checks passed. The isolated 0.18.0-to-0.19.0 installer upgrade/reinstall preserved project types, settings and linked sources.
 
-Version 0.18.0 is an unsigned Windows alpha. The production build, 375 automated tests (11 optional cases skipped), desktop workflows, update UI/save guards, real isolated NSIS installation/restart, and isolated 0.17.1-to-0.18.0 app upgrade/reinstall checks passed. Clean-device/laptop installation and the in-game walkthrough remain pending. Native build tests and an editor preview do not establish in-game acceptance.
+A real GitHub login and hosted script-project upload/restore passed between two independent profiles on one Windows computer, including encrypted-session restart and matching restored content. This does not establish clean-laptop, large-asset or every authenticated edge-case acceptance.
 
-## Explore the website
+This is an **unsigned Windows alpha**. Production signing, clean-device/laptop checks and the owner-run FiveM walkthrough remain pending. Native exports require the relevant tools and actual in-game validation. The complete examples ZIP includes an original two-room house and its test guide.
 
-[Visit Brick by Script](https://404hxlo.github.io/brick-by-script/) for studio previews, beginner project guides and download information.
+## Website and guides
 
-The studio screenshots were captured in alpha 0.16.6; their capture labels are retained. Imported GTA models pictured on the website are not bundled. The desktop application source is not included in this repository.
+[Visit Brick by Script](https://404hxlo.github.io/brick-by-script/) · [Read the documentation](https://404hxlo.github.io/brick-by-script/docs/)
 
-## Documentation
-
-[Read the Brick by Script docs](https://404hxlo.github.io/brick-by-script/docs/) for installation, beginner projects, all five studios, backups, exports and testing. Search the guides with Ctrl+K.
+Studio screenshots retain their historical capture labels. Imported GTA models pictured on the website are not bundled; use your own permitted files. The desktop source stays private; this repository contains the public website and downloads.
