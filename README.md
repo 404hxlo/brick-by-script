@@ -4,20 +4,20 @@ Build interiors, write scripts, and work on clothing, jewelry and vehicles in on
 
 ## Download for Windows x64
 
-[Download Brick by Script 0.20.2](https://github.com/404hxlo/brick-by-script/releases/download/v0.20.2/Brick-by-Script-0.20.2-Setup.exe)
+[Download Brick by Script 0.21.0](https://github.com/404hxlo/brick-by-script/releases/download/v0.21.0/Brick-by-Script-0.21.0-Setup.exe)
 
 Already using 0.18.0 or later? Open **Workspace settings → App updates**, enable **Include preview releases**, then check, download and choose **Install and restart**. Earlier versions need one manual installation to gain the updater.
 
-[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.20.2). Extract the ZIP before running its installer. GitHub's automatically generated source archives are not the app installer.
+[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.21.0). Extract the ZIP before running its installer. GitHub's automatically generated source archives are not the app installer.
 
-## New in 0.20.2
+## New in 0.21.0
 
-- **Browse your own resource files.** In Add resource file, choose Browse files, select a supported UTF-8 text file, review its project path, and add a copy. Your original file stays untouched. Duplicate paths and binary files are rejected.
-- **Switch clothing targets.** Fitting body, Item type and custom GTA slot selectors work when a garment is linked. Confirm to unlink the old garment while keeping your artwork. Source files stay on disk, and Undo restores the previous design.
-- **Open the clothing browser directly.** Edit GTA clothing now opens the local wardrobe browser instead of only expanding a lower panel. Controls show a loading state and prevent duplicate operations.
-- **Preserve imported text.** Unicode, line endings and UTF-8 byte-order marks survive import, editing, saving and reopening.
+- **18 practical studio lessons.** Clothing, Jewelry, MLO, Vehicle, Script and Pack Builder paths explain the concepts, guide a task, show expected results and check understanding. The eleven existing Lua lessons remain available.
+- **Practice beside your project.** Pin a collapsible lesson, record the steps you tried and return for a knowledge check. Progress resumes on this PC and never locks studio features.
+- **Find the tools and models.** Learn → Tools & models includes studio filters, official or developer-linked downloads, the installed-tool checker, and male/female GTA character preparation from your own Legacy installation. No redistributed game-model downloads are bundled.
+- **Learn outside the app.** Both the website and documentation include the new learning paths and setup guide.
 
-[Read what's new](https://404hxlo.github.io/brick-by-script/docs/whats-new/) · [Script Studio guide](https://404hxlo.github.io/brick-by-script/docs/script-studio/) · [Clothing Studio guide](https://404hxlo.github.io/brick-by-script/docs/clothing-studio/)
+[Learning paths](https://404hxlo.github.io/brick-by-script/docs/learning-paths/) · [Tools and character setup](https://404hxlo.github.io/brick-by-script/docs/tools-and-models/)
 
 ## Explore the studios
 
