@@ -4,18 +4,15 @@ Build interiors, write scripts, and work on clothing, jewelry and vehicles in on
 
 ## Download for Windows x64
 
-[Download Brick by Script 0.21.1](https://github.com/404hxlo/brick-by-script/releases/download/v0.21.1/Brick-by-Script-0.21.1-Setup.exe)
+[Download Brick by Script 0.21.2](https://github.com/404hxlo/brick-by-script/releases/download/v0.21.2/Brick-by-Script-0.21.2-Setup.exe)
 
 Already using 0.18.0 or later? Open **Workspace settings → App updates**, enable **Include preview releases**, then check, download and choose **Install and restart**. Earlier versions need one manual installation to gain the updater.
 
-[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.21.1). Extract the ZIP before running its installer. GitHub's automatically generated source archives are not the app installer.
+[Release notes, checksums and optional installer + examples ZIP](https://github.com/404hxlo/brick-by-script/releases/tag/v0.21.2). Extract the ZIP before running its installer. GitHub's automatically generated source archives are not the app installer.
 
-## New in 0.21.1
+## New in 0.21.2
 
-- **Pick the right studio.** New Project explains the choices and links to the learning paths when you are unsure.
-- **Change your mind safely.** Every project-creation dialog can return to the chooser without changing the open project.
-- **Move around clearly.** Settings includes working Home, Projects and Return to project actions.
-- **Keep guidance in view.** Collapsed practice stays within the window, modal actions wrap and keyboard menus focus reliably.
+When GitHub limits update checks, the desktop app checks the official Brick by Script website for the latest release in your selected channel. Downloads still come from the project’s GitHub releases. If an earlier version reports a rate limit, use the Windows download above to install 0.21.2.
 
 [Read what changed](https://404hxlo.github.io/brick-by-script/docs/whats-new/) · [Start a learning path](https://404hxlo.github.io/brick-by-script/docs/learning-paths/)
 
@@ -24,7 +21,7 @@ Already using 0.18.0 or later? Open **Workspace settings → App updates**, enab
 - Script, MLO, Clothing, Jewelry and Vehicle studios, with beginner guidance and advanced tool workflows.
 - Real male/female GTA fitting character setup using your own GTA V Legacy installation, Blender with Sollumz and CodeWalker. Game models are not included in the download.
 - Project folders, tags, favorites, duplication, recoverable Trash and recovery checkpoints.
-- Optional GitHub accounts and private project snapshots. These are explicit snapshots, not automatic simultaneous editing.
+- Optional GitHub accounts and private project snapshots. Save a snapshot on one PC and restore it on another.
 - Project backups and transfer bundles for moving editable work and supported linked sources.
 
 ## Alpha limits

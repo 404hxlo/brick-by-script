@@ -1,0 +1,19 @@
+[
+  {
+    "tag_name": "v0.21.2",
+    "draft": false,
+    "prerelease": true,
+    "published_at": "2026-11-21T05:52:52Z",
+    "name": "Brick by Script 0.21.2",
+    "body": "# Brick by Script 0.21.2 — More reliable update checks\n\nWhen GitHub rate-limits a release check, Brick by Script now looks up the latest Windows release on the official Brick by Script website. The updater uses your selected channel and verifies the installer's size and SHA-256 before installation. If a check fails, choose **Open GitHub releases** to reach the downloads.\n\n## Get the update\n\nOpen **Workspace settings → App updates**, enable **Include preview releases**, and select **Check for updates**. Choose **Download update**, then **Install and restart** when you're ready.\n\nIf you're running 0.21.1 or earlier and see a rate-limit error, download the setup file from this release, save your work, close Brick by Script, and run the installer once. Version 0.21.2 includes the backup update check for future releases.\n\nThe Windows x64 setup is an unsigned alpha.\n",
+    "assets": [
+      {
+        "name": "Brick-by-Script-0.21.2-Setup.exe",
+        "state": "uploaded",
+        "size": 118657819,
+        "digest": "sha256:7b8b3ac0392776d927d14087f30785448dfd9ea24cfb788da9f053ae07e09034",
+        "browser_download_url": "https://github.com/404hxlo/brick-by-script/releases/download/v0.21.2/Brick-by-Script-0.21.2-Setup.exe"
+      }
+    ]
+  }
+]
